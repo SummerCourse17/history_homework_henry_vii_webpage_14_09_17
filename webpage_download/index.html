@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Henry VIII</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>
+          <img src="./resources/img/crown-logo.png">
+          <span>Henry VIII</span>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#about">More Info</a></li>
+            <li class="contact"><a href="#quiz">Quiz</a></li>
+          </ul>
+          <ul class="truncated-menu">
+            <li>Menu</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="flex container">
+        <div class="main-banner">
+          <h1>HENRY VIII (reigned 21<sup>st</sup> April 1509 - 28<sup>th</sup> January 1547)</h1>
+        </div>
+      </div>
+    </header>
+    <h3 class="summary_title" id="summary">Summary of Henry VIII</h3>
+    <div class="pictures">
+      <div class="item exams">
+        <div class="item-image">
+          <img src="./resources/img/sword.png" class="paper-icon">
+        </div>
+        <p>Powerful and Strong</p>
+      </div>
+      <div class="item fittings">
+        <div class="item-image">
+          <img src="./resources/img/phone.png" class="phone">
+        </div>
+        <p>A Modern Man</p>
+      </div>
+      <div class="item delivery">
+        <div class="item-image">
+          <img src="./resources/img/people.png">
+        </div>
+        <p>Popular with people</p>
+      </div>
+    </div>
+    <div class="info_content" id="about">
+      <div class="info-part philosophy">
+        <div class="title">
+          About Henry
+        </div>
+        <p>Henry VIII was born on the 28<sup>th</sup>June 1491 and died on the 28<sup>th</sup> January 1547. He became King of England on the 21<sup>st</sup> April 1509 and reigned until his death in 1547. He won lots of wars and was powerful and popular. In 1534, Henry wanted to divorce his first wife, Catherine of Aragon, so that he could marry Anne Boleyn. The Pope however would not allow this so he set up his own church and named it the Church of England.</p>
+      </div>
+      <div class="info-part appointments">
+        <div class="title">
+          Modern or Mediaval
+        </div>
+        <p>I think King Henry VIII was a modern man because he did lots of things other previous kings didn't. Henry liked science and astronomy and even set up his own church, this shows that he was actually quite a modern man.</p>
+      </div>
+    </div>
+    <div class="henry-container" id="quiz">
+      <img src="./resources/img/henry.png" class="henry">
+    </div>
+    <div class="button">
+      <button onclick="myFunction()">Take the king Henry quiz!</button>
+      <script>
+        function myFunction() {
+          //document.getElementById("demo").innerHTML = "Hello World";
+          alert ("Press OK to start quiz")
+          var your_score = 0;
+          if (prompt ("When was Henry born?(in full eg; 21 April 1509)")=== "28 June 1491"){
+            your_score = your_score + 1;
+          }
+          if (prompt ("How many wives did Henry have?") ===  "6"){
+            your_score = your_score + 1;
+          }
+          if (prompt ("Anne Boleyn was his first wife. (True or False)") === "False"){
+            your_score = your_score + 1;
+          }
+          if (prompt ("Fill in the blank (please include the P in your answer): Henry was a very P_______ person and won lots of wars") === "Powerful"){
+            your_score = your_score + 1;
+          }
+          if (prompt ("When did he set up the church of England?") === "1534"){
+            your_score = your_score + 1;
+          }
+          alert("Your score is " + your_score.toString() + "/5");
+          if (your_score === 0){
+            alert ("Have you even heard of the tudors?")
+          }
+          if (your_score === 1){
+            alert ("Have you even heard of the tudors?")
+          }
+          if (your_score === 2){
+            alert ("History isn't your thing is it...")
+          }
+          if (your_score === 3){
+            alert ("Pretty good...")
+          }
+          if (your_score === 4){
+            alert ("Well done!")
+          }
+          if (your_score === 5){
+            if (prompt ("Are you a History Teacher (Yes or No)?") === "No"){
+              alert ("You should get a job as one...")
+            }
+          }
+        }
+</script>
+    </div>
+    <footer>
+      <div class="footer-img">
+        <img src="./resources/img/crown.png">
+      </div>
+      <div class="footer-text">King Henry VIII Webpage</div>
+    </footer>
+  </body>
+</html>

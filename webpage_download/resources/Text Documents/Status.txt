@@ -1,0 +1,6 @@
+04/09/17 17:38 ~~ Folder Directory set up.
+04/09/17 17:42 ~~ Specification downloaded and saved.
+04/09/17 17:42 ~~ Images downloaded and saved.
+04/09/17 17:44 ~~ File index.html created.
+04/09/17 17:46 ~~ File style.css created.
+04/09/17 17:46 ~~ Boilerplate code added to index.html.
