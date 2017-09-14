@@ -88,6 +88,21 @@
           if (prompt ("When did he set up the church of England?") === "1534"){
             your_score = your_score + 1;
           }
+          if (prompt ("Fill in the blank (do not include Cathenrine in your answer): Henry's first wife was Catherine __ ______.") === "of Aragon"){
+            your_score = your_score + 1;
+          }
+          if (prompt ("Who did Henry steal money from to pay for wars?") === "The Church"){
+            your_score = your_score + 1;
+          }
+          if (prompt ("What was not one of Henry's hobbies (answer with just the letter): A. Sports B. Astronomy C. Science D. Photoshop") === "D"){
+            your_score = your_score + 1;
+          }
+          if (prompt ("What was the main reason why Henry get annoyed at the Pope (answer with just the letter): A. He had too much power B. The Church owned too much land ") === "A"){
+            your_score = your_score + 1;
+          }
+          if (prompt ("Henry was the first Tudor King. (True or False)") === "False"){
+            your_score = your_score + 1;
+          }
           alert("Your score is " + your_score.toString() + "/5");
           if (your_score === 0){
             alert ("Have you even heard of the tudors?")
@@ -108,6 +123,9 @@
             if (prompt ("Are you a History Teacher (Yes or No)?") === "No"){
               alert ("You should get a job as one...")
             }
+          }
+          if (prompt ("Would you like to see the answrs? (Yes or No)") === "Yes"){
+            alert ("1. '28 June 1491' , 2. '6' , 3. 'False' , 4. 'Powerful' , 5. '1534' , 6. 'of Aragon' , 7. 'The Church' , 8. 'D' , 9. 'A' , 10. 'False'")
           }
         }
 </script>
